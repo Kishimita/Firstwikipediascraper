@@ -9,7 +9,7 @@ time.sleep(2) #sleep() ②, which basically tells our scraper to take a break, t
 
 #identification 
 headers = {"user-agent" : "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko)Chrome/65.0.3325.162 Safari/537.36",
-            "from": "Joas Cerutti joascerutt@gmail.com"}#First, we can give 
+            "from": "Your Name yourdomainexample@domain.com"}#First, we can give 
             #the website owner information about the kind of user-agent ① we’re using
             #Then we can specify who we are ② within a string assigned to the key from. ②
 
